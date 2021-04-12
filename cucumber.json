@@ -1,0 +1,1190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 320798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get_Access_TOKEN",
+        "description": "",
+        "id": "send-email-api-testing;get-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2438784235,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create Access_Token_Request with header and parameters using BaseURl(\"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2",
+                  "offset": 70
+                }
+              ],
+              "location": "Email_GET_Calls.create_Access_Token_Request_with_header_and_parameters_using_BaseURl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1MTk4ODgxNjIsImJyb2tlclVzZXJJZCI6IlBvcnRhbCJ9.Bw_tx7vfH35LvSUDoAHrRO0YT36gkYHS2ufM8kH6pENZlWGcgjdXDyKIY8r3qsrAWdV1f5yZlxYZjAKvbBfGtXj4mAZvmjA-73XBr2rruRTRDoZcLTq3cW3msp9kh49fdhhLZke38BEcylVCSkEe9F1kyg8WMXklHthXR18NFPHrUAK5nAKIk8-AfRxiznT0Ciph8ZsxSyE_OaxnfqVGZnE7yX0CGyL8f4vvYkdxE-U1kmgBsTacrvv6DHz76JBF3R1fCkKu-mt87WfbqW2Ab5zFOZn-Sb_ds_iJAEEvainiY6ylua-4-hMLkkDYAdIlPNTK_gozj_VkbHjqNqe0ig\",\n    \"token_type\": \"Bearer\",\n    \"expires_in\": 86399\n}"
+            ],
+            "result": {
+              "duration": 4528527293,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "POST method is sent with \"token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 7014358,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "token_type received from Response-Bearer"
+            ],
+            "result": {
+              "duration": 757553192,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"token_type\" should be \"Bearer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token_type",
+                  "offset": 1
+                },
+                {
+                  "val": "Bearer",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 53466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Service_Send_Email",
+        "description": "",
+        "id": "send-email-api-testing;service-send-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22267238,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Create SendRequest with access Token in header and json file in body \"InputBody_PostEmail.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InputBody_PostEmail.json",
+                  "offset": 70
+                }
+              ],
+              "location": "Email_POST_Calls.create_SendRequest_with_access_Token_in_header_and_json_file_in_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "\u003chtml\u003e\n  \u003chead\u003e\n    \u003ctitle\u003e504 Gateway Timeout\u003c/title\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003ch1\u003eGateway Timeout\u003c/h1\u003e\n    \u003cp\u003eThe gateway did not receive a timely response\nfrom the upstream server or application.\u003c/p\u003e\n  \u003c/body\u003e\n\u003c/html\u003e"
+            ],
+            "result": {
+              "duration": 183316778725,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "POST method is sent with \"emails\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "emails",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-504"
+            ],
+            "result": {
+              "duration": 2687432,
+              "error_message": "java.lang.AssertionError: Incorrect Status Code Returned expected [200] but found [504]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertEquals(Assert.java:123)\r\n\tat org.testng.Assert.assertEquals(Assert.java:370)\r\n\tat stepDefinationsCommon.CommonCalls.it_should_provide_status_code(CommonCalls.java:34)\r\n\tat ✽.Then it should provide status code \"200\"(Feature_EmailConfiguration/AEmailPOSTCalls.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "\"description\" should be \"Messages have been processed successfully.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "description",
+                  "offset": 1
+                },
+                {
+                  "val": "Messages have been processed successfully.",
+                  "offset": 25
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "\"failedCount\" should be equal to Integer \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failedCount",
+                  "offset": 1
+                },
+                {
+                  "val": "0",
+                  "offset": 42
+                }
+              ],
+              "location": "CommonCalls.should_be_equal_to_integer(String,int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Send Email API Testing",
+    "description": "",
+    "id": "send-email-api-testing",
+    "keyword": "Feature",
+    "uri": "Feature_EmailConfiguration/AEmailPOSTCalls.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get_Access_TOKEN",
+        "description": "",
+        "id": "get-email-api-testing;get-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1898270,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create Access_Token_Request with header and parameters using BaseURl(\"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2",
+                  "offset": 70
+                }
+              ],
+              "location": "Email_GET_Calls.create_Access_Token_Request_with_header_and_parameters_using_BaseURl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1MTk4ODgzNDgsImJyb2tlclVzZXJJZCI6IlBvcnRhbCJ9.kC0OweemqGTozDfEFHqzNjEQRNmDmGU6EMt_BRlw-s0D7zC-kOBnrKKa3Z7GsEmI36jcb8aENv_OLet1ob418P1bz9qgMhmLowFiGnCmTdCeGW3RDkUcES49RlvVuv1e5rcU2xRDqw96CSYTtSApxzPr8Lyvli_X36noP9mEbyQSAUjJsJ0AwR0jYPVYkDMWfK3UneCCtemZICtqrea4U99IjWxi4Vq8ZGtLsSjglJ-B07uabuQDktI6FvRIFeYjtXiEeHamPvXbWbV6Hy_bSdgUx70n0ISQ4dpbv5ZkurvZdo7LbBNZdTwXKAfx8OG4ksjnFAPT3qjXnjpllpGUIw\",\n    \"token_type\": \"Bearer\",\n    \"expires_in\": 86399\n}"
+            ],
+            "result": {
+              "duration": 1519644179,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "POST method is sent with \"token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 905933,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "token_type received from Response-Bearer"
+            ],
+            "result": {
+              "duration": 29969387,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"token_type\" should be \"Bearer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token_type",
+                  "offset": 1
+                },
+                {
+                  "val": "Bearer",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 40634,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get_Session_Token",
+        "description": "",
+        "id": "get-email-api-testing;get-session-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24290833,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Create Session_Token_Request with access Token in header and parameters \"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/api/startSession\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/api/startSession",
+                  "offset": 73
+                }
+              ],
+              "location": "Email_GET_Calls.create_Session_Token_Request_with_access_Token_in_header_and_parameters(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"error_code\": \"0\",\n    \"error_description\": \"OK\",\n    \"message\": \"Sucess\"\n}"
+            ],
+            "result": {
+              "duration": 1243524690,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "POST method is sent with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 805417,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "error_code received from Response-0"
+            ],
+            "result": {
+              "duration": 21099106,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "\"error_code\" should be \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "error_code",
+                  "offset": 1
+                },
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "error_description received from Response-OK"
+            ],
+            "result": {
+              "duration": 13942314,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"error_description\" should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "error_description",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "message received from Response-Sucess"
+            ],
+            "result": {
+              "duration": 14802908,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"message\" should be \"Sucess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "message",
+                  "offset": 1
+                },
+                {
+                  "val": "Sucess",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Get_Email_Status",
+        "description": "",
+        "id": "get-email-api-testing;get-email-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2218640,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Create GetEmail_Request with access Token and session token in header and parameters\"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/api\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/api",
+                  "offset": 85
+                }
+              ],
+              "location": "Email_GET_Calls.create_GetEmail_Request_with_access_Token_and_session_token_in_header_and_parameters(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"count\": 0,\n    \"messages\": null,\n    \"errorDetails\": [\n        {\n            \"field\": \"clientId\",\n            \"message\": \"clientId is a mandatory field\",\n            \"errorCode\": \"1001\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1281113675,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "GET method is sent with \"emails\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "emails",
+                  "offset": 25
+                }
+              ],
+              "location": "Email_GET_Calls.get_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-400"
+            ],
+            "result": {
+              "duration": 1101835,
+              "error_message": "java.lang.AssertionError: Incorrect Status Code Returned expected [200] but found [400]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertEquals(Assert.java:123)\r\n\tat org.testng.Assert.assertEquals(Assert.java:370)\r\n\tat stepDefinationsCommon.CommonCalls.it_should_provide_status_code(CommonCalls.java:34)\r\n\tat ✽.Then it should provide status code \"200\"(Feature_EmailConfiguration/EmailGETCalls.feature:26)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "\"count\" should be equal to Integer \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "count",
+                  "offset": 1
+                },
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "CommonCalls.should_be_equal_to_integer(String,int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Get Email API Testing",
+    "description": "",
+    "id": "get-email-api-testing",
+    "keyword": "Feature",
+    "uri": "Feature_EmailConfiguration/EmailGETCalls.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 38924,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get_Access_TOKEN",
+        "description": "",
+        "id": "send-textmessage-api-testing;get-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1852930,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create Access_Token_Request with header and parameters using BaseURl(\"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2",
+                  "offset": 70
+                }
+              ],
+              "location": "Email_GET_Calls.create_Access_Token_Request_with_header_and_parameters_using_BaseURl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1MTk4ODgzNTIsImJyb2tlclVzZXJJZCI6IlBvcnRhbCJ9.DHYUH2lofpvATuSg3bZIFLqKOVjwo0-8jwBqTV2j_ka8N3UKOf9t6-lSOq2g350kV9xKHIg7_y__wRzfA0maig2qO7n5NSU2S4gdk8jA7L0P4-jVu4vuVB_I79nsHMDspJizHxUscJEKO3HihYwypIVmmaQprutlO0W-WVLoWIntMN4Y666Q8sXrLuoK68OpMCL8idxgimri2PGiV2MrtCi_I0DpIOASlUJX0Pjgn2lOjm4oqJhUejXUov3wpkd6m2MX_rPdiUTqR_wDqysRoO8f2lnNAKZ9Isyw9t9xguXVs_hHbBzZufTC5nBgFnk0-5_g5SSJi5ZfUdxJ0ku6AA\",\n    \"token_type\": \"Bearer\",\n    \"expires_in\": 86399\n}"
+            ],
+            "result": {
+              "duration": 1226912481,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "POST method is sent with \"token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 630903,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "token_type received from Response-Bearer"
+            ],
+            "result": {
+              "duration": 24241216,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"token_type\" should be \"Bearer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token_type",
+                  "offset": 1
+                },
+                {
+                  "val": "Bearer",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 56460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Service_Send_TextMessage",
+        "description": "",
+        "id": "send-textmessage-api-testing;service-send-textmessage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15454770,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Create SendRequest with access Token in header and json file in body \"InputBody_PostTextMessage.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InputBody_PostTextMessage.json",
+                  "offset": 70
+                }
+              ],
+              "location": "Email_POST_Calls.create_SendRequest_with_access_Token_in_header_and_json_file_in_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"description\": \"Messages have been processed successfully.\",\n    \"failedCount\": 0,\n    \"failedDeliverables\": [\n        \n    ]\n}"
+            ],
+            "result": {
+              "duration": 2051142490,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "POST method is sent with \"textmessages\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "textmessages",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 748957,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "description received from Response-Messages have been processed successfully."
+            ],
+            "result": {
+              "duration": 17905240,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"description\" should be \"Messages have been processed successfully.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "description",
+                  "offset": 1
+                },
+                {
+                  "val": "Messages have been processed successfully.",
+                  "offset": 25
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "failedCount received from Response-0"
+            ],
+            "result": {
+              "duration": 11737789,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"failedCount\" should be equal to Integer \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failedCount",
+                  "offset": 1
+                },
+                {
+                  "val": "0",
+                  "offset": 42
+                }
+              ],
+              "location": "CommonCalls.should_be_equal_to_integer(String,int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Send TextMessage API Testing",
+    "description": "",
+    "id": "send-textmessage-api-testing",
+    "keyword": "Feature",
+    "uri": "Feature_TextMessage/ATextMessagePOSTCalls.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get_Access_TOKEN",
+        "description": "",
+        "id": "get-textmessage-api-testing;get-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1182676,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create Access_Token_Request with header and parameters using BaseURl(\"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/oauth2",
+                  "offset": 70
+                }
+              ],
+              "location": "Email_GET_Calls.create_Access_Token_Request_with_header_and_parameters_using_BaseURl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1MTk4ODgzNTUsImJyb2tlclVzZXJJZCI6IlBvcnRhbCJ9.eT-xU96eA0Ac4NtrIhXm4Y0V-Da6jUl3rknSvY8ABAETnwECypUxQaylnNBHzFQEB3kwNOoEcH82Mr4D6plC-phXTpKa0Ebev1Ez6OMb_Lh29ZhlSyi2XKaPKN9UJQ6e_5q7DQj21hJNMX5k03iJIu5xTcaUxXhQxHKJKI5ot_PrQO11hyrnG7oKvjY5fJkZBrioj352jzTA1iv2mJJs8aMA5AIoWCQ2R-S_NvlbRdg_qA4KeUEON0T1VwofE0SV7TE5CH-GSZjwTtvUNKttw6Ie1jEGkeKUlSm6YqbwPx3nv7dZsBl4MSw7GZhzmmmUnAIq7Yb0OGiOjdg20HegYA\",\n    \"token_type\": \"Bearer\",\n    \"expires_in\": 86399\n}"
+            ],
+            "result": {
+              "duration": 1238123305,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "POST method is sent with \"token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 680520,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "token_type received from Response-Bearer"
+            ],
+            "result": {
+              "duration": 28408170,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"token_type\" should be \"Bearer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "token_type",
+                  "offset": 1
+                },
+                {
+                  "val": "Bearer",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 61165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.keepScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get_Session_Token",
+        "description": "",
+        "id": "get-textmessage-api-testing;get-session-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17728159,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Create CommonSession_Token_Request with access Token in header and parameters \"https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/api/startSession\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bitlb02.asvc.hewitt.com/AHServiceGatewayDV/api/startSession",
+                  "offset": 79
+                }
+              ],
+              "location": "TextMessage_GET_Calls.create_CommonSession_Token_Request_with_access_Token_in_header_and_parameters(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "{\n    \"error_code\": \"0\",\n    \"error_description\": \"OK\",\n    \"message\": \"Sucess\"\n}"
+            ],
+            "result": {
+              "duration": 1227736718,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "POST method is sent with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "Email_POST_Calls.post_method_is_sent_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status Code received from Response-200"
+            ],
+            "result": {
+              "duration": 547068,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "it should provide status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.it_should_provide_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "error_code received from Response-0"
+            ],
+            "result": {
+              "duration": 14696403,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"error_code\" should be \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "error_code",
+                  "offset": 1
+                },
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "error_description received from Response-OK"
+            ],
+            "result": {
+              "duration": 48730516,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"error_description\" should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "error_description",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 31
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "message received from Response-Sucess"
+            ],
+            "result": {
+              "duration": 26677571,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"message\" should be \"Sucess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "message",
+                  "offset": 1
+                },
+                {
+                  "val": "Sucess",
+                  "offset": 21
+                }
+              ],
+              "location": "CommonCalls.should_be(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Get TextMessage API Testing",
+    "description": "",
+    "id": "get-textmessage-api-testing",
+    "keyword": "Feature",
+    "uri": "Feature_TextMessage/TextMessageGETCalls.feature"
+  }
+]

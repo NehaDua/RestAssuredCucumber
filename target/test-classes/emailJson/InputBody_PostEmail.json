@@ -1,0 +1,34 @@
+{
+	"composition" : {
+		"bypassContentCreation" : "true",
+		"compositionApplicationCd" : "HSA_NOTIFY_EMAIL",
+		"configurationId" : "1652013013",
+		"projectId" : ""
+	},
+	"deliverables" : [ {
+		"idMapping" : {
+			"roleType" : "rkp",
+			"domains" : "HM",
+			"platformType" : "AdvocacyCampMgr",
+			"clientId" : "19920",
+			"normalizedClientId" : "19920",
+			"systemInstanceId" : "",
+			"sourceSchemaName" : "",
+			"platformInternalId" : "272000098"
+		},
+		"messageDelivery" : {
+			"emailAddress" : "alok.adhikari@alight.com",
+			"emailId" : "111222333",
+			"fromAddress" : "campaign.manager@alight.com",
+			"priority" : "normal",
+			"secureEmailMessage" : "N",
+			"eventName" : "Advocacy Campaign5",
+			"emailSubject" : "Don't forget to open your HSA test alok",
+			"platformKeyData" : [ {
+				"dataName" : "referenceId",
+				"dataValue" : "bf5d4994-489f-4ea0-8b39-2bfc8053be85"
+			} ]
+		},
+		"content" : "<html xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\"><head><meta content=\"text\/html; charset=iso-8859-1\" http-equiv=\"Content-Type\" \/><\/head><body topmargin=\"0px\" rightmargin=\"0px\" leftmargin=\"0px\" bottommargin=\"0px\" style=\"background-color:#EEEEEE;\"><table cellspacing=\"0\" cellpadding=\"0\" width=\"615px\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-bottom:15px;\"><table cellspacing=\"0\" cellpadding=\"0\" width=\"615\"><tbody><tr><td width=\"615\" colspan=\"3\"><p><p><\/p><\/p><\/td><\/tr><tr><td width=\"25\"><p> <\/p><\/td><td width=\"565\"><p><p><\/p><\/p><\/td><td width=\"25\"><p> <\/p><\/td><\/tr><\/tbody><\/table><\/td><\/tr><\/tbody><\/table><\/td><\/tr><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-right: 25px; padding-bottom: 15px; padding-left: 25px;\" \/><\/tr><\/tbody><\/table><\/td><\/tr><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-right: 25px; padding-bottom: 15px; padding-left: 25px;\"><p class=\"Body_Copy\"> é or ç Please visit the Benefits Connection website at <span class=\"Email_URL_Inline_Style\">www.staples.com\/benefits<\/span> to retrieve a document that needs your prompt attention. Your document is being held in the Secure Mailbox section of the site.<\/p><\/td><\/tr><\/tbody><\/table><\/td><\/tr><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-left: 25px;\"><p class=\"Line_Spacing_0_Before_Body_Header\"> <\/p><table cellspacing=\"0\" cellpadding=\"0\" width=\"590\"><tbody><tr height=\"15px\"><td width=\"160\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p> <\/p><\/td><td width=\"15\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p> <\/p><\/td><td width=\"360\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p> <\/p><\/td><td width=\"55\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p> <\/p><\/td><\/tr><tr><td width=\"590\" colspan=\"4\" class=\"Email_FMI_Header_Cell_Style\"><p>For More Information<\/p><\/td><\/tr><tr><td width=\"160\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p><\/p><\/td><td width=\"15\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p> <\/p><\/td><td width=\"360\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><table cellspacing=\"0\" cellpadding=\"0\" width=\"360\" class=\"Keep_Table_Together\"><tbody><tr height=\"0.793749988079071cm\"><td width=\"35\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p><p><\/p><\/p><\/td><td width=\"325\" class=\"Email_FMI_Body_Cell_Style\"><p><b xmlns=\"\">Benefits Connection<\/b> at <a href=\"www.staples.com\/benefits\" class=\"\">www.staples.com\/benefits<\/a><\/p><\/td><\/tr><tr><td width=\"35\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p><p><\/p><\/p><\/td><td width=\"325\" class=\"Email_FMI_Body_Cell_Style\"><p><b xmlns=\"\">HR Services<\/b><br \/>1-888-490-4747, 8:30 AM to 7:00 PM EST Monday-Thursday and 8:30 AM to 6:00 PM EST Friday. <\/p><\/td><\/tr><\/tbody><\/table><\/td><td width=\"55\" class=\"Email_FMI_Image_Alignment_Cell_Style\"><p> <\/p><\/td><\/tr><\/tbody><\/table><\/td><\/tr><\/tbody><\/table><\/td><\/tr><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-right: 25px; padding-bottom: 15px; padding-left: 25px;\" \/><\/tr><\/tbody><\/table><\/td><\/tr><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-right: 25px; padding-bottom: 15px; padding-left: 25px;\" \/><\/tr><\/tbody><\/table><\/td><\/tr><tr valign=\"top\"><td style=\"width: 615px;\"><table width=\"615px\" bgcolor=\"#FFFFFF\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\"><tbody><tr valign=\"top\"><td style=\"width: 615px; padding-right: 25px; padding-bottom: 15px; padding-left: 25px;\"><p class=\"Table_Footnote\">This email was generated automatically and can't accept replies.<\/p><\/td><\/tr><\/tbody><\/table><\/td><\/tr><\/tbody><\/table><\/body><\/html>"
+	} ]
+}

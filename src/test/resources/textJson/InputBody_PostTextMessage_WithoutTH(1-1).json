@@ -1,0 +1,38 @@
+{
+   "composition" : {
+    "bypassContentCreation" : true,
+    "compositionApplicationCd" : "CB0001",
+    "configurationId" : "1652000524",
+    "projectId" : ""
+  },
+  "deliverables" : [ {
+    "idMapping" : {
+      "roleType" : null,
+      "domains" : "HM",
+      "platformType" : "CBA",
+      "clientId" : "10559",
+      "normalizedClientId" : "10559",
+      "systemInstanceId" : null,
+      "sourceSchemaName" : null,
+      "platformInternalId" : "34638618"
+    },
+    "messageDelivery" : {
+      "phoneNumber" : "4072229721",
+      "phoneId" : null,
+      "fromAddress" : "CBA",
+      "priority" : "normal",
+      "secureTextMessage" : "N",
+      "eventName" : "Notification Scheduler",
+      "textMessageSubject" : "E2E (SSN)",
+      "textMessageName" : null,
+      "platformKeyData" : [ {
+        "dataName" : "textMessageTimestamp",
+        "dataValue" : "2017-08-30 13:01:47.000945"
+      }, {
+        "dataName" : "referenceId",
+        "dataValue" : "9"
+      } ]
+    },
+    "content" : "this is a test message for Automation Testing."
+  } ]
+}

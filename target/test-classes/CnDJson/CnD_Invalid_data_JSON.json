@@ -1,0 +1,1198 @@
+{
+  "jobId": "",
+   "jobName": "",
+    "requestTimestamp" : "",
+    "systemInstanceId": "",
+    "clientId":"",
+    "configurationId" : "",
+    "projectId" : "",
+    "isRealTimeProcessingRequired": true,
+  "data": {
+    "kitIdArray": [
+      {
+        "idMapping": {
+          "systemInstanceId": "14613",
+          "clientId": "19999",
+          "platformInternalId": "0021211706",
+          "platformType": "CBA"
+        },
+        "kitMetaData": {
+          "kitName": null,
+          "jobAssemblyTypeCd": "V",
+          "divertCode": null,
+          "enclosureCode": null,
+          "initialSequenceNumber": "000001",
+          "kitCatNmValueTx": "US=Y",
+          "materialListTx": "",
+          "postageBillingNumber": "0",
+          "assemblyBillingNumber": "0"
+        },
+        "documents": [
+          {
+            "deliveryMode": "SPM",
+            "includeFaxCover": "N",
+            "displayCobraBenefitCode": "Y",
+            "documentMetaData": {
+              "referenceId": "9557",
+              "documentId": "0040",
+              "documentDescription": "k",
+              "compositionApplicationCd": "HM0040",
+              "imagingBarcodeFormId": "",
+              "logoName": "default"
+            },
+            "spmMetaData": {
+              "documentcategory": "S",
+              "documentExternalId": "95570040",
+              "documentType": "PCS",
+              "contentDataType": "1",
+              "mimeType": "application/pdf",
+              "finaleExpirationDate": "2299-12-31",
+              "publishingSystemIdentifier": "CBA",
+              "emailToAddress": "sneh.verma.2@alight.com",
+              "emailFromAddress": "autonotification@alight.com",
+              "emailSubject": "Your Adidas cobra rights is available.",
+              "languagePreference": "1"
+            },
+            "onserts": [
+              {
+                "onsertFileNameorId": [
+                  ""
+                ]
+              }
+            ],
+            "person": {
+              "recipientIndicator": "Participant",
+              "employerId": "",
+              "nationalTaxId": "",
+              "nationalTaxIdCountry": "",
+              "nationalTaxIdType": null,
+              "last4DigitsOfSSN": "7285",
+              "title": "",
+              "firstName": "Casandra Fake",
+              "middleName": "Scram",
+              "lastName": "Burris",
+              "legalNameFormatted": "Casandra Fake S. Burris",
+              "preferredNameFormatted": "Burris, Casandra Fake S.",
+              "suffix": "",
+              "birthDate": "1989-05-15",
+              "gender": "F",
+              "maritalStatus": "Married",
+              "maritalStatusDescription": "Married",
+              "preferredLocale": "1",
+              "countryRecordingStatus": "United States",
+              "eventTransactionDate": "2018-02-20",
+              "employmentData": {
+                "employerAssignedId": "519777285",
+                "employementStatus": "Active",
+                "directDebitEnrlCd": null,
+                "dbpStatus": "N/A",
+                "directBillingIndicator": "N",
+                "cobra": {
+                  "isSubsidyApplicable": "N",
+                  "cobraSubsidyIndicator": "N",
+                  "cobraSubsidyEndDate": "2299-12-31",
+                  "subsidyEndDateOverride": "2299-12-31",
+                  "tradeAdjActIndicator": "N",
+                  "endOfDisabilityDate": "N"
+                },
+                "cobraCoverageTermReason": "",
+                "formerEmployeeName": "Burris, Casandra Fake S.",
+                "previouslyCobraEnrolled": "N",
+                "currentPlanYearBeginDate": "2299-12-31",
+                "futurePlanYearBeginDate": "2299-12-31",
+                "cobraAEBeginDate": "2299-12-31",
+                "cobraAEEndDate": "2299-12-31",
+                "priorCoverageEndDateVary": "Y",
+                "priorCoverageEndDate": "2299-12-31",
+                "cobraCoverageDateVary": "Y",
+                "cobraCoverageBeginDate": "2299-12-31",
+                "cobraCoverageEndDate": "2299-12-31",
+                "cobraElectionPrdEndDateVary": "Y",
+                "cobraElectionPrdEndDate": "2299-12-31",
+                "cobraPeriodMonths": "18"
+              }
+            },
+            "emails": [
+              {
+                "emailId": "sneh.verma.2@alight.com",
+                "emailType": "Work",
+                "emailTypeDescription": "Work",
+                "effectiveUntil": "2018-02-20",
+                "isPreferred": true,
+                "isWork": true,
+                "isHome": false,
+                "isEmailBad": false,
+                "emailAddress": "sneh.verma.2@alight.com"
+              }
+            ],
+            "postalAddresses": {
+              "addressCode": "1",
+              "zipcode": "97225",
+              "country": "United States",
+              "countryDescription": "United States",
+              "city": "Hunt Valley",
+              "addressLine1": "123 First Street",
+              "addressLine2": "",
+              "addressLine3": "",
+              "state": "OR",
+              "addressLine4": "",
+              "addressLine5": ""
+            },
+            "employer": {
+             "employerId": "25",
+              "employerName": "adidas",
+              "planYear": "2018",
+              "isCobraEnabled": "Y",
+              "serviceCenter": {
+                "serviceCenterRepresentative": null,
+                "serviceCenterName": "adidas Group Benefits Service Center",
+                "serviceCenterUrl": "adidas-groupbenefits.com",
+                "serviceCenterPhone": "1-888-860-6147",
+                "yourBenefitResource": null,
+                "serviceCenterHours": null,
+                "faxNumber": "148526369"
+              },
+              "employerAddress": {
+                "addressCode": "",
+                "zipcode": "97217",
+                "country": "United States",
+                "countryDescription": "United States",
+                "city": "Portland",
+                "addressLine1": "5055 N. Greeley Ave",
+                "addressLine2": "",
+                "addressLine3": "",
+                "state": "OR",
+                "addressLine4": "",
+                "addressLine5": ""
+              }
+            },
+            "notificationSettings": {
+              "qscReportingDays": "30",
+              "clientEmployeeDescription": "e",
+              "websiteSymbolCode": "",
+              "employerNameArtTx": "Y",
+              "serviceCenterArtTx": "Y",
+              "retireeMedOffered": "Y",
+              "clientEventDescription": "TestChange",
+              "turnAroundAddress": {
+                "addressLine1": "",
+                "addressLine2": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zip": "0"
+              },
+              "coveredEntity": {
+                "isValid": "Y",
+                "taglineLang": "15",
+                "coveredEntityName": "Covered Entity 1",
+                "civilRightCoordinatorName": "Civil Right Coordinator",
+                "civilRightsTitle": "CRC",
+                "civilRightMailingAddress": "",
+                "zipcode": "24567",
+                "country": "United States",
+                "countryDescription": "United States",
+                "city": "TX",
+                "addressLine1": "25, Street 1",
+                "addressLine2": "",
+                "addressLine3": "",
+                "state": "TX",
+                "addressLine4": "",
+                "addressLine5": "",
+                "civilRightPhoneNumber": "1-789-456-1230",
+                "civilRightTTY": "256",
+                "civilRightFax": "1-741-258-9355",
+                "civilRightEmail": "abc@gmail.com"
+              },
+              "partyNameERISAClaim": "test",
+              "caCobraSetting": "Y",
+              "cobraConversionProvision": "N",
+              "dbpLockboxAddress": {
+                "addressCode": "",
+                "zipcode": "24567",
+                "country": "United States",
+                "countryDescription": "United States",
+                "city": "TX",
+                "addressLine1": "Street 1",
+                "addressLine2": "",
+                "addressLine3": "",
+                "state": "TX",
+                "addressLine4": "",
+                "addressLine5": ""
+              },
+              "coSourcedSupportType": "1",
+              "coSourcedServiceCenterPhone": "0",
+              "returnAddress": {
+                "addressCode": "",
+                "zipcode": "14523",
+                "country": "United States",
+                "countryDescription": "United States",
+                "city": "TX",
+                "addressLine1": "121",
+                "addressLine2": "",
+                "addressLine3": "",
+                "state": "AA",
+                "addressLine4": "",
+                "addressLine5": ""
+              },
+              "returnAddressManage": "Client Managed",
+              "healthCoverageResource": "N",
+              "healthCoverageResourceUrl": "",
+              "isOvernightAddressApplicable": null,
+              "overnightAddress": {
+                "addressCode": "",
+                "zipcode": "13544",
+                "country": "United States",
+                "countryDescription": "United States",
+                "city": "bay",
+                "addressLine1": "123@r761/",
+                "addressLine2": "hudsojn",
+                "addressLine3": "",
+                "state": "TN",
+                "addressLine4": "",
+                "addressLine5": ""
+              },
+              "claimAppealPrefix": "",
+              "preferredClaimAppealTerm": "",
+              "claimAppealManagementTeamDescription": "",
+              "claimsGroupAddress": {
+                "addressCode": "",
+                "zipcode": "0",
+                "country": "",
+                "countryDescription": "",
+                "city": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "addressLine3": "",
+                "state": "",
+                "addressLine4": "",
+                "addressLine5": ""
+              },
+              "claimsGroupFaxNumber": "",
+              "faxActivated": "N",
+              "enrolledInMedicareRetiree": "Terminate family's retiree medical (with Rx) for life",
+              "enrolledInMedicareCOBRA": "Terminate family's retiree medical (with Rx) for life",
+              "reEnrollmentPermission": "Yes",
+              "noccEntityName": "Creditable",
+              "annualEnrollmentText": "Annual Enrollment"
+            },
+            "eventDetail": {
+              "eventTypeCode": "Initial Cobra",
+              "qualifyingEvents": [
+                {
+                  "code": null,
+                  "codeDesc": null,
+                  "mqeIndicator": null
+                }
+              ],
+              "denialReason": null
+            },
+            "dependents": [
+              {
+                "relationshipType": "Self",
+                "last4DigitsOfSSN": "2961",
+                "title": "Clin Lab Tech, Sr - 000891",
+                "firstName": "Zachariah_Fake",
+                "middleName": "Scram",
+                "lastName": "Carney",
+                "suffix": "",
+                "birthDate": "2011-02-01",
+                "gender": "M",
+                "enrolledPlans": [
+                  "550149"
+                ],
+                "isQualifiedBeneficiary": "false"
+              },
+              {
+                "relationshipType": "Child",
+                "last4DigitsOfSSN": "9113",
+                "title": "Not Present",
+                "firstName": "Antone_Fake",
+                "middleName": "Scram",
+                "lastName": "Boyle",
+                "suffix": "",
+                "birthDate": "2011-02-01",
+                "gender": "M",
+                "enrolledPlans": [],
+                "isQualifiedBeneficiary": "false"
+              },
+              {
+                "relationshipType": "Spouse",
+                "last4DigitsOfSSN": "0724",
+                "title": "Not Present",
+                "firstName": "Elba_Fake",
+                "middleName": "Scram",
+                "lastName": "Forbes",
+                "suffix": "",
+                "birthDate": "2011-02-01",
+                "gender": "F",
+                "enrolledPlans": [],
+                "isQualifiedBeneficiary": "false"
+              },
+              {
+                "relationshipType": "Child",
+                "last4DigitsOfSSN": "5159",
+                "title": "Not Present",
+                "firstName": "Rupert_Fake",
+                "middleName": "Scram",
+                "lastName": "Gilliam",
+                "suffix": "",
+                "birthDate": "2011-02-01",
+                "gender": "M",
+                "enrolledPlans": [],
+                "isQualifiedBeneficiary": "false"
+              },
+              {
+                "relationshipType": "Child",
+                "last4DigitsOfSSN": "3194",
+                "title": "Not Present",
+                "firstName": "Damion_Fake",
+                "middleName": "Scram",
+                "lastName": "Huber",
+                "suffix": "",
+                "birthDate": "2011-02-01",
+                "gender": "M",
+                "enrolledPlans": [],
+                "isQualifiedBeneficiary": "false"
+              }
+            ],
+            "eligiblePlans": {
+              "planSubType": [
+                {
+                  "name": "FSA_MEDICAL",
+                  "displayName": "FSA - Medical",
+                  "priorCoverageEndDate": "2018-03-10",
+                  "cobraCoverageBeginDate": "2018-03-11",
+                  "cobraCoverageEndDate": "2018-12-31",
+                  "cobraElectionPrdEndDate": "2018-05-16",
+                  "plans": [
+                    {
+                      "id": "5761",
+                      "displayName": "Health Care Spending Account",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "",
+                      "coverageStartDate": "2017-09-21",
+                      "coverageEndDate": "2018-12-31",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "",
+                          "monthlyAmount": "2000.0",
+                          "companySubsidizedAmount": "0.0",
+                          "postSubsidyAmount": "0.0",
+                          "employeeMonthlyAmount": "0.0",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge",
+                          "coverageAmount": "15000"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_MEDICAL",
+                  "displayName": "Health - Medical",
+                  "priorCoverageEndDate": "2018-03-16",
+                  "cobraCoverageBeginDate": "2018-03-17",
+                  "cobraCoverageEndDate": "2019-09-16",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "20522",
+                      "displayName": "adidas PPO Plus (Aetna) (RP)",
+                      "isCobra": "true",
+                      "isEnrolled": "false",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2017-09-19",
+                      "coverageEndDate": "2018-12-31",
+                      "coverageStatus": "Terminated",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "518.73",
+                          "companySubsidizedAmount": "110.00",
+                          "postSubsidyAmount": "518.73",
+                          "employeeMonthlyAmount": "518.73",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "1193.07",
+                          "companySubsidizedAmount": "254.00",
+                          "postSubsidyAmount": "1193.07",
+                          "employeeMonthlyAmount": "1193.07",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "1763.68",
+                          "companySubsidizedAmount": "375.00",
+                          "postSubsidyAmount": "1763.68",
+                          "employeeMonthlyAmount": "1763.68",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "1193.07",
+                          "companySubsidizedAmount": "254.00",
+                          "postSubsidyAmount": "1193.07",
+                          "employeeMonthlyAmount": "1193.07",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "1763.68",
+                          "companySubsidizedAmount": "375.00",
+                          "postSubsidyAmount": "1763.68",
+                          "employeeMonthlyAmount": "1763.68",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_VISION",
+                  "displayName": "Health - Vision",
+                  "priorCoverageEndDate": "2018-03-31",
+                  "cobraCoverageBeginDate": "2018-04-01",
+                  "cobraCoverageEndDate": "2019-09-30",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "12085",
+                      "displayName": "Vision",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2018-01-01 00:00:00.0",
+                      "coverageEndDate": "2018-03-31 00:00:00.0",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "5.51",
+                          "companySubsidizedAmount": "4.81",
+                          "postSubsidyAmount": "5.51",
+                          "employeeMonthlyAmount": "5.51",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "11.02",
+                          "companySubsidizedAmount": "9.62",
+                          "postSubsidyAmount": "11.02",
+                          "employeeMonthlyAmount": "11.02",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "17.75",
+                          "companySubsidizedAmount": "15.50",
+                          "postSubsidyAmount": "17.75",
+                          "employeeMonthlyAmount": "17.75",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "11.02",
+                          "companySubsidizedAmount": "9.62",
+                          "postSubsidyAmount": "11.02",
+                          "employeeMonthlyAmount": "11.02",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "17.75",
+                          "companySubsidizedAmount": "15.50",
+                          "postSubsidyAmount": "17.75",
+                          "employeeMonthlyAmount": "17.75",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_DENTAL",
+                  "displayName": "Health - Dental",
+                  "priorCoverageEndDate": "2018-03-31",
+                  "cobraCoverageBeginDate": "2018-04-01",
+                  "cobraCoverageEndDate": "2019-09-30",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "20524",
+                      "displayName": "Dental Plus",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2018-01-01 00:00:00.0",
+                      "coverageEndDate": "2018-03-31 00:00:00.0",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "39.76",
+                          "companySubsidizedAmount": "11.92",
+                          "postSubsidyAmount": "39.76",
+                          "employeeMonthlyAmount": "39.76",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "79.53",
+                          "companySubsidizedAmount": "22.75",
+                          "postSubsidyAmount": "79.53",
+                          "employeeMonthlyAmount": "79.53",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "119.29",
+                          "companySubsidizedAmount": "32.50",
+                          "postSubsidyAmount": "119.29",
+                          "employeeMonthlyAmount": "119.29",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "79.53",
+                          "companySubsidizedAmount": "22.75",
+                          "postSubsidyAmount": "79.53",
+                          "employeeMonthlyAmount": "79.53",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "119.29",
+                          "companySubsidizedAmount": "32.50",
+                          "postSubsidyAmount": "119.29",
+                          "employeeMonthlyAmount": "119.29",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                }
+              ],
+              "totalNonSubsidizedMonthlyCost": "1002.00"
+            },
+            "qeEligiblePlans": {
+              "planSubType": [
+                {
+                  "name": "FSA_MEDICAL",
+                  "displayName": "FSA - Medical",
+                  "priorCoverageEndDate": "2018-03-10",
+                  "cobraCoverageBeginDate": "2018-03-11",
+                  "cobraCoverageEndDate": "2018-12-31",
+                  "cobraElectionPrdEndDate": "2018-05-16",
+                  "plans": [
+                    {
+                      "id": "5761",
+                      "displayName": "Health Care Spending Account",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "",
+                      "coverageStartDate": "2017-09-21",
+                      "coverageEndDate": "2018-12-31",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "",
+                          "monthlyAmount": "2000.0",
+                          "companySubsidizedAmount": "0.0",
+                          "postSubsidyAmount": "0.0",
+                          "employeeMonthlyAmount": "0.0",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge",
+                          "coverageAmount": "15000"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_MEDICAL",
+                  "displayName": "Health - Medical",
+                  "priorCoverageEndDate": "2018-03-16",
+                  "cobraCoverageBeginDate": "2018-03-17",
+                  "cobraCoverageEndDate": "2019-09-16",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "20522",
+                      "displayName": "adidas PPO Plus (Aetna) (RP)",
+                      "isCobra": "true",
+                      "isEnrolled": "false",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2017-09-19",
+                      "coverageEndDate": "2018-12-31",
+                      "coverageStatus": "Terminated",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "518.73",
+                          "companySubsidizedAmount": "110.00",
+                          "postSubsidyAmount": "518.73",
+                          "employeeMonthlyAmount": "518.73",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "1193.07",
+                          "companySubsidizedAmount": "254.00",
+                          "postSubsidyAmount": "1193.07",
+                          "employeeMonthlyAmount": "1193.07",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "1763.68",
+                          "companySubsidizedAmount": "375.00",
+                          "postSubsidyAmount": "1763.68",
+                          "employeeMonthlyAmount": "1763.68",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "1193.07",
+                          "companySubsidizedAmount": "254.00",
+                          "postSubsidyAmount": "1193.07",
+                          "employeeMonthlyAmount": "1193.07",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "1763.68",
+                          "companySubsidizedAmount": "375.00",
+                          "postSubsidyAmount": "1763.68",
+                          "employeeMonthlyAmount": "1763.68",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_VISION",
+                  "displayName": "Health - Vision",
+                  "priorCoverageEndDate": "2018-03-31",
+                  "cobraCoverageBeginDate": "2018-04-01",
+                  "cobraCoverageEndDate": "2019-09-30",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "12085",
+                      "displayName": "Vision",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2018-01-01 00:00:00.0",
+                      "coverageEndDate": "2018-03-31 00:00:00.0",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "5.51",
+                          "companySubsidizedAmount": "4.81",
+                          "postSubsidyAmount": "5.51",
+                          "employeeMonthlyAmount": "5.51",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "11.02",
+                          "companySubsidizedAmount": "9.62",
+                          "postSubsidyAmount": "11.02",
+                          "employeeMonthlyAmount": "11.02",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "17.75",
+                          "companySubsidizedAmount": "15.50",
+                          "postSubsidyAmount": "17.75",
+                          "employeeMonthlyAmount": "17.75",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "11.02",
+                          "companySubsidizedAmount": "9.62",
+                          "postSubsidyAmount": "11.02",
+                          "employeeMonthlyAmount": "11.02",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "17.75",
+                          "companySubsidizedAmount": "15.50",
+                          "postSubsidyAmount": "17.75",
+                          "employeeMonthlyAmount": "17.75",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ],
+                                                                                                                                                                  "totalNonSubsidizedMonthlyCost": "0.0"
+                },
+                {
+                  "name": "HEALTH_DENTAL",
+                  "displayName": "Health - Dental",
+                  "priorCoverageEndDate": "2018-03-31",
+                  "cobraCoverageBeginDate": "2018-04-01",
+                  "cobraCoverageEndDate": "2019-09-30",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "20524",
+                      "displayName": "Dental Plus",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2018-01-01 00:00:00.0",
+                      "coverageEndDate": "2018-03-31 00:00:00.0",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "39.76",
+                          "companySubsidizedAmount": "11.92",
+                          "postSubsidyAmount": "39.76",
+                          "employeeMonthlyAmount": "39.76",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "79.53",
+                          "companySubsidizedAmount": "22.75",
+                          "postSubsidyAmount": "79.53",
+                          "employeeMonthlyAmount": "79.53",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "119.29",
+                          "companySubsidizedAmount": "32.50",
+                          "postSubsidyAmount": "119.29",
+                          "employeeMonthlyAmount": "119.29",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "79.53",
+                          "companySubsidizedAmount": "22.75",
+                          "postSubsidyAmount": "79.53",
+                          "employeeMonthlyAmount": "79.53",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "119.29",
+                          "companySubsidizedAmount": "32.50",
+                          "postSubsidyAmount": "119.29",
+                          "employeeMonthlyAmount": "119.29",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                }
+              ],
+              "totalNonSubsidizedMonthlyCost": "1002.00"
+            },
+            "terminatedPlans": {
+              "planSubType": [
+                {
+                  "name": "FSA_MEDICAL",
+                  "displayName": "FSA - Medical",
+                  "priorCoverageEndDate": "2018-03-10",
+                  "cobraCoverageBeginDate": "2018-03-11",
+                  "cobraCoverageEndDate": "2018-12-31",
+                  "cobraElectionPrdEndDate": "2018-05-16",
+                  "plans": [
+                    {
+                      "id": "5761",
+                      "displayName": "Health Care Spending Account",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "",
+                      "coverageStartDate": "2017-09-21",
+                      "coverageEndDate": "2018-12-31",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "",
+                          "monthlyAmount": "2000.0",
+                          "companySubsidizedAmount": "0.0",
+                          "postSubsidyAmount": "0.0",
+                          "employeeMonthlyAmount": "0.0",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge",
+                          "coverageAmount": "15000"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_MEDICAL",
+                  "displayName": "Health - Medical",
+                  "priorCoverageEndDate": "2018-03-16",
+                  "cobraCoverageBeginDate": "2018-03-17",
+                  "cobraCoverageEndDate": "2019-09-16",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "20522",
+                      "displayName": "adidas PPO Plus (Aetna) (RP)",
+                      "isCobra": "true",
+                      "isEnrolled": "false",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2017-09-19",
+                      "coverageEndDate": "2018-12-31",
+                      "coverageStatus": "Terminated",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "518.73",
+                          "companySubsidizedAmount": "110.00",
+                          "postSubsidyAmount": "518.73",
+                          "employeeMonthlyAmount": "518.73",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "1193.07",
+                          "companySubsidizedAmount": "254.00",
+                          "postSubsidyAmount": "1193.07",
+                          "employeeMonthlyAmount": "1193.07",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "1763.68",
+                          "companySubsidizedAmount": "375.00",
+                          "postSubsidyAmount": "1763.68",
+                          "employeeMonthlyAmount": "1763.68",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "1193.07",
+                          "companySubsidizedAmount": "254.00",
+                          "postSubsidyAmount": "1193.07",
+                          "employeeMonthlyAmount": "1193.07",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "1763.68",
+                          "companySubsidizedAmount": "375.00",
+                          "postSubsidyAmount": "1763.68",
+                          "employeeMonthlyAmount": "1763.68",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_VISION",
+                  "displayName": "Health - Vision",
+                  "priorCoverageEndDate": "2018-03-31",
+                  "cobraCoverageBeginDate": "2018-04-01",
+                  "cobraCoverageEndDate": "2019-09-30",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "12085",
+                      "displayName": "Vision",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2018-01-01 00:00:00.0",
+                      "coverageEndDate": "2018-03-31 00:00:00.0",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "5.51",
+                          "companySubsidizedAmount": "4.81",
+                          "postSubsidyAmount": "5.51",
+                          "employeeMonthlyAmount": "5.51",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "11.02",
+                          "companySubsidizedAmount": "9.62",
+                          "postSubsidyAmount": "11.02",
+                          "employeeMonthlyAmount": "11.02",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "17.75",
+                          "companySubsidizedAmount": "15.50",
+                          "postSubsidyAmount": "17.75",
+                          "employeeMonthlyAmount": "17.75",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "11.02",
+                          "companySubsidizedAmount": "9.62",
+                          "postSubsidyAmount": "11.02",
+                          "employeeMonthlyAmount": "11.02",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "17.75",
+                          "companySubsidizedAmount": "15.50",
+                          "postSubsidyAmount": "17.75",
+                          "employeeMonthlyAmount": "17.75",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                },
+                {
+                  "name": "HEALTH_DENTAL",
+                  "displayName": "Health - Dental",
+                  "priorCoverageEndDate": "2018-03-31",
+                  "cobraCoverageBeginDate": "2018-04-01",
+                  "cobraCoverageEndDate": "2019-09-30",
+                  "cobraElectionPrdEndDate": "2018-05-22",
+                  "plans": [
+                    {
+                      "id": "20524",
+                      "displayName": "Dental Plus",
+                      "isCobra": "true",
+                      "isEnrolled": "true",
+                      "isCobraSubsidyPlan": "false",
+                      "amountTaxType": "Pre-Tax",
+                      "coverageStartDate": "2018-01-01 00:00:00.0",
+                      "coverageEndDate": "2018-03-31 00:00:00.0",
+                      "coverageStatus": "Termination Pending",
+                      "coverageCat": [
+                        {
+                          "displayName": "Employee Only",
+                          "monthlyAmount": "39.76",
+                          "companySubsidizedAmount": "11.92",
+                          "postSubsidyAmount": "39.76",
+                          "employeeMonthlyAmount": "39.76",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + 1",
+                          "monthlyAmount": "79.53",
+                          "companySubsidizedAmount": "22.75",
+                          "postSubsidyAmount": "79.53",
+                          "employeeMonthlyAmount": "79.53",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "Mohamed_Fake Hewitt Amalia_Fake Mooney Karyn_Fake Rutledge ",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Family",
+                          "monthlyAmount": "119.29",
+                          "companySubsidizedAmount": "32.50",
+                          "postSubsidyAmount": "119.29",
+                          "employeeMonthlyAmount": "119.29",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner",
+                          "monthlyAmount": "79.53",
+                          "companySubsidizedAmount": "22.75",
+                          "postSubsidyAmount": "79.53",
+                          "employeeMonthlyAmount": "79.53",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        },
+                        {
+                          "displayName": "Employee + Domestic Partner + Child(ren)",
+                          "monthlyAmount": "119.29",
+                          "companySubsidizedAmount": "32.50",
+                          "postSubsidyAmount": "119.29",
+                          "employeeMonthlyAmount": "119.29",
+                          "employerMonthlyAmount": "0.0",
+                          "coveredPersons": "",
+                          "coverageAmount": "0"
+                        }
+                      ],
+                      "optionReqPcp": ""
+                    }
+                  ]
+                }
+              ],
+              "totalNonSubsidizedMonthlyCost": "0.0"
+            },
+            "providers": [
+              {
+                "planSubtypes": [
+                  "Health - Medical"
+                ],
+                "name": "UHC",
+                "isCobra": "false",
+                "phoneNumber": "",
+                "providedPlanIds": [
+                  "9945"
+                ],
+                "webSite": "www.partner.com"
+              },
+              {
+                "planSubtypes": [
+                  "FSA - Medical"
+                ],
+                "name": "Hewitt YSA",
+                "isCobra": "false",
+                "phoneNumber": "",
+                "providedPlanIds": [
+                  "5761"
+                ],
+                "webSite": "www.partner.com"
+              },
+              {
+                "planSubtypes": [
+                  "Health - Dental"
+                ],
+                "name": "Delta",
+                "isCobra": "false",
+                "phoneNumber": "",
+                "providedPlanIds": [
+                  "5756"
+                ],
+                "webSite": "www.partner.com"
+              },
+              {
+                "planSubtypes": [
+                  "Health - Vision"
+                ],
+                "name": "VSP",
+                "isCobra": "false",
+                "phoneNumber": "",
+                "providedPlanIds": [
+                  "5769"
+                ],
+                "webSite": "www.partner.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

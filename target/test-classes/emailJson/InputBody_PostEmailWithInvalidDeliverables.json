@@ -1,0 +1,61 @@
+{
+	"composition" : {
+		"bypassContentCreation" : false,
+		"compositionApplicationCd" : "AC0008_QSC_Birth_Post-transaction_Email",
+		"configurationId" : "1652013013",
+		"projectId" : "1652032760"
+	},
+	"deliverables" : [ {
+		"idMapping" : {
+			"roleType" : "rkp",
+			"domains" : "HM",
+			"platformType" : "AdvocacyCampMgr",
+			"clientId" : "19920",
+			"normalizedClientId" : "19920",
+			"systemInstanceId" : "",
+			"sourceSchemaName" : "",
+			"platformInternalId" : "304000029"
+		},
+		"messageDelivery" : {
+			"emailAddress" : "",
+			"emailId" : 2033,
+			"fromAddress" : "Do-Not-Reply_Alight_Advocacy_Services@Alight.com",
+			"priority" : "normal",
+			"secureEmailMessage" : "N",
+			"eventName" : "Advocacy Campaign",
+			"emailSubject" : "Subject",
+			"ernm" : "Pepisco",
+			"logoFileNm" : "00095_image_A_logo_email.jpg",
+			"trackKey" : "01698003840009700000044700371593078",
+			"platformKeyData" : [ {
+				"dataName" : "referenceId",
+				"dataValue" : "25966e36-3cac-431c-a02b-c48096be8c26"
+			} ]
+		},
+		"compositionData" : [
+				{
+					"dataName" : "callOption",
+					"dataValue" : "1"
+				},
+				{
+					"dataName" : "supportCenterNumber",
+					"dataValue" : "888-555-1212"
+				},
+				{
+					"dataName" : "supportCenterOperationTime",
+					"dataValue" : "Monday through Friday, 7 a.m. to 6 p.m. CT"
+				},
+				{
+					"dataName" : "clientName",
+					"dataValue" : "Premier"
+				},
+				{
+					"dataName" : "advocacyLandingPage",
+					"dataValue" : "https://l4dridap1274:8453/web/earth/login?p_p_id=58&p_p_lifecycle=0&_58_redirect=/web/earth/advocacy-landing-page?cam_ref=100"
+				},
+				{
+					"dataName" : "manageCommunicationPage",
+					"dataValue" : "https://l4dridap1274:8453/web/earth/login?p_p_id=58&p_p_lifecycle=0&_58_redirect=/web/earth/managecommunications"
+				} ]
+	} ]
+}
